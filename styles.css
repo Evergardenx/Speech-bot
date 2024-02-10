@@ -1,0 +1,167 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin: 0;
+    display: flex;
+    background-color: #1C1B43;
+    font-family: "Outfit", sans-serif;
+    color: #E3E8EF;
+}
+.hero-image {
+    height: 100vh;
+    width: auto;
+}
+.section-main {
+    padding: 32px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.section-header {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.span-voice {
+    color: #677489;
+}
+.span-speed {
+    color: #677489;
+}
+.title {
+    font-size: 20px;
+}
+.logo {
+    height: 40px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.div-text-area {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+.text-area {
+    resize: none;
+    height: 140px;
+    background-color: #1E2A52;
+    border-radius: 10px;
+    border: 1px solid #2E5B84;
+    color: #677489;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.subtext-text-area {
+    color: #364153;
+    font-size: 12px;
+}
+.settings {
+    display: flex;
+    flex-direction: column;
+}
+.span-settings {
+    font-size: 12px;
+}
+.btns-voice {
+    margin-top: 8px;
+    background-color: #1E2A52;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+    
+}
+
+.select {
+    background-color: #1E2A52;
+    color: #E3E8EF;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    border: 0;
+    padding-right: 12px;
+    padding-left: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 1px solid #364153;
+}
+.btns-speed {
+    margin-top: 18px;
+    height: 60px;
+    background-color: #1E2A52;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap:8px;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.span-speed {
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-right: 1px solid #364153 ; 
+}
+.btn-speed{
+    background-color: #1E2A52;
+    width: 55px;
+    border: 0;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    color: #E3E8EF;
+    padding: 8px;
+}
+.btn-speed-selected{
+    background-color: #1C1B43;
+    border-radius: 5px;
+    width: 55px;
+    border: 0;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    color: #E3E8EF;
+    padding: 8px;
+}
+
+.btn-text-to-speech {
+    color: #E3E8EF;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    background: linear-gradient(to right, #6326A2, #263FA9);
+    padding: 20px;
+    margin-top: 62px;
+}
+.hero-landing {
+    height: 100vh;
+    width: auto;
+}
+@media (max-width: 1279px) { 
+    .hero-landing {
+        display: none;
+    }
+    .section-main {
+        width: -webkit-fill-available;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: space-evenly;
+        margin-bottom: 80px;
+    }
+}

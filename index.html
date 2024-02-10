@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <section class="hero-landing">
+            <img class="hero-image" src="hero-image-text-to-speech.png">
+        </section>
+        <section class="section-main"> 
+            <header class="section-header">
+                <span class="title">Speechbot</span>
+                <img class="logo" fill="#E3E8EF" src="text-to-speech-logo.svg">                
+            </header>
+            <main class="main">
+                <div class="div-text-area">
+                    <textarea id="text-area_1" class="text-area" placeholder="Enter your text"></textarea>
+                    <span class="subtext-text-area">Enter your text above and hit 'play.' You can choose a different voice by selecting an option <br>
+                        from the dropdown menu.</span>
+                </div>
+                <div class="settings">
+                    <span class="span-settings">Settings</span>
+                    <div class="btns-voice">
+                        <span class="span-voice">Voice</span>
+                        <select id="select-language" class="select">
+                        </select>
+                        <select id="select-voice" class="select">
+                        </select>
+                    </div>
+                    <div class="btns-speed">
+                        <span class="span-speed">Speed</span>
+                        <button value="0.5" id="btn-speed-05x" class="btn-speed-selected">0.5x</button>
+                        <button value="0.75" id="btn-speed-075x" class="btn-speed">0.75x</button>
+                        <button value="1" id="btn-speed-1x" class="btn-speed">1x</button>
+                        <button value="1.5" id="btn-speed-15x" class="btn-speed">1.5x</button>
+                    </div>
+                </div>                    
+                <button class="btn-text-to-speech">Text to Speech</button>
+            </main>
+        </section>
+        
+    </body>
+    <script type="text/javascript" src="script.js"></script>
+</html>
